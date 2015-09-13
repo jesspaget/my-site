@@ -11,3 +11,51 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FED245;
+}
+
+h1 {
+    color: #87A3D0;
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.face {
+    max-width: 20rem;
+    margin-top: -3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerinfo {
+    margin-top: 50px;
+    padding: 0;
+}
+
+.subtitle {
+    color: #87A3D0;
+    font-family: sans-serif;
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.list {
+    color: #87A3D0;
+    font-family: sans-serif;
+    text-align: center;
+    list-style-type: none;
+    text-transform: lowercase;
+}
+
+ul {
+    padding: 0;
+    margin-top: 2rem;
+}
