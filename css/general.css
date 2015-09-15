@@ -16,22 +16,24 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FED245;
+    
 }
 
 h1 {
-    color: #87A3D0;
-    font-size: 3rem;
-    font-family: sans-serif;
+    color: white;
+    font-size: 4rem;
+    font-family:'Creepster', cursive;;
     text-transform: uppercase;
     text-align: center;
 }
 
 .face {
     max-width: 20rem;
-    margin-top: -3rem;
+    margin-top: -3.3rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: solid 3px white;
 }
 
 .headerinfo {
@@ -40,17 +42,18 @@ h1 {
 }
 
 .subtitle {
-    color: #87A3D0;
+    color: white;
     font-size: 1.2rem;
-    font-family: sans-serif;
+    font-family:'Quicksand', sans-serif;
+    font-weight: 700;
     text-align: center;
     list-style-type: none;
     text-transform: uppercase;
 }
 
 .list {
-    color: #87A3D0;
-    font-family: sans-serif;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     list-style-type: none;
     text-transform: lowercase;
@@ -59,4 +62,37 @@ h1 {
 ul {
     padding: 0;
     margin-top: 2rem;
+}
+
+.links {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .info {
+        margin-top: 15rem;
+        padding-right: 12rem;
+    }
+    
+    .subtitle {
+        text-align: left;
+    }
+    
+    .list {
+        text-align: left;
+    }
+
 }
