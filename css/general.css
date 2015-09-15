@@ -20,9 +20,9 @@ body {
 }
 
 h1 {
-    color: white;
+    color: ;
     font-size: 4rem;
-    font-family:'Creepster', cursive;;
+    font-family:'Creepster', cursive;
     text-transform: uppercase;
     text-align: center;
 }
@@ -33,7 +33,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: solid 3px white;
+    border: solid 3px black;
 }
 
 .headerinfo {
@@ -43,7 +43,6 @@ h1 {
 
 .subtitle {
     color: white;
-    font-size: 1.2rem;
     font-family:'Quicksand', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -53,10 +52,11 @@ h1 {
 
 .list {
     color: white;
+    font-size: .9rem;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     list-style-type: none;
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 ul {
@@ -64,13 +64,22 @@ ul {
     margin-top: 2rem;
 }
 
-.links {
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
+a {
+    color: black;
+    font-family: 'Creepster', cursive;
+    font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: none
+}
+
+a:hover {
+    color: white;
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -83,7 +92,7 @@ ul {
 @media only screen and (min-width: 60em) {
     
     .info {
-        margin-top: 15rem;
+        margin-top: 13rem;
         padding-right: 12rem;
     }
     
