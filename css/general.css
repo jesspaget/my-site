@@ -78,7 +78,7 @@ a:hover {
     font-family: 'Creepster', cursive;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 25em) {
